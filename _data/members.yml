@@ -16,12 +16,11 @@
    La batterie devient rapidement son instrument préféré (même s'il adore toujours les autres!).
    Grand amateur du «bon son», il est aussi aux commandes quand il faut mixer les enregistrements."
 
-- name: Jean
+- name: Andgel
   inst: Guitare
-  desc: "Des années de standards Pop-Rock-Blues, un glissement salutaire vers le jazz, les doigts s'engourdissent d'un groove langoureux...
-   puis les cocottes du Funk électrisent les poignets et phalanges de Jean.
-   Depuis, il ne s'est pas arrêté, Funk, Soul, Groove..., des rythmes et des sons «esprit vacances» toute l'année,
-   il aime surtout partager ses moments avec le public, pour le plaisir des oreilles et des jambes !"
+  desc: "À force d'avoir une guitare dans la main, Andgel en a fait son métier.
+   Il s’est rendu à Los Angeles (GIT) pour suivre les cours de Robben Ford, Scott Henderson ou encore Joe Diorio.
+   Il donne maintenant des cours en région Lyonnaise et participe à différentes formations Bules, Soul, Jazz… et maintenant Funk !"
 
 - name: Thierry
   inst: Basse
