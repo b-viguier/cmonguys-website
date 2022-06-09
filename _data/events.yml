@@ -1,0 +1,41 @@
+- date_day: 29
+  date_month: Août
+  date_year: 2021
+  date_hour: ~
+  title: Mariage
+  private: 1
+  location: "Saint-Forgeux"
+  url: ~
+  desc: "Animation musicale lors d'un repas de lendemain de mariage."
+  video_link: "https://www.youtube.com/watch?v=la9U2Uy-swE"
+
+- date_day: 27
+  date_month: Nov.
+  date_year: 2021
+  date_hour: ~
+  title: Téléthon
+  location: "Brindas"
+  url: https://mjc-brindas.fr/2021/11/02/telethon-2021/
+  desc: "Participation musicale au Téléthon à Brindas."
+  video_link: "https://www.youtube.com/watch?v=hGlDi89NfMY"
+
+- date_day: 18
+  date_month: Juin
+  date_year: 2022
+  date_hour: 19h00
+  title: Fête de la musique
+  location: "Soucieu-en-Jarrest, Place J.Condamin"
+  url: http://soucieu-en-jarrest.fr/component/acym/archive/271-soucieu-info-2-juin-2022.html?userid=10326-qwSLOThteiOaQC&tmpl=raw
+  desc: "Retrouvez-nous sur l'une des 5 scènes de la ville"
+  video_link: ~
+
+- date_day: 18
+  date_month: Nov.
+  date_year: 2022
+  date_hour: À venir
+  title: Bar Concert
+  location: "Un air de Janis, Lyon 7"
+  url: https://www.unairdejanis.com/
+  desc: "Soirée Funk!"
+  video_link: ~
+

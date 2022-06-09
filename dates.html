@@ -1,0 +1,68 @@
+---
+layout: page
+title: Les Dates
+id: dates
+description: Envie de passer un moment Funk ? Venez nous écouter !
+---
+
+<div class="container">
+
+    {% for event in site.data.events reversed %}
+        {% assign starts_row = forloop.index | modulo: 2 %}
+        {% if starts_row == 1 %}
+        <div class="row mb-2">
+        {% endif %}
+
+            <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col-auto p-4 d-lg-block">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="badge bg-primary text-center">
+                                        <div class="fs-1 fx-bold">{{ event.date_day }}</div>
+                                        <div class="fs-4">{{ event.date_month }}</div>
+                                        <div class="fs-4">{{ event.date_year }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                {% if event.date_hour %}
+                                <div class="col">
+                                    <div class="row badge bg-secondary text-center mt-1" >
+                                        <div class="fs-5">{{ event.date_hour }}</div>
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                    </div>
+
+                    <div class="col p-4 d-flex flex-column position-static">
+
+                        <h3 class="mb-0">
+                            {{ event.title }}
+                        </h3>
+                        {%if event.private %}
+                        <strong class="d-inline-block mb-2 text-danger">Privé</strong>
+                        {% endif %}
+
+                        <div class="mb-1 text-muted">
+                            {{ event.location }}
+                            {% if event.video_link %}
+                            <a href="{{ event.video_link }}" class="m-3 stretched-link link-light"><i class="bi bi-youtube"></i> Vidéo</a>
+                            {% endif %}
+                        </div>
+                        <p class="card-text mb-auto">{{ event.desc }}</p>
+
+                        {% if event.url %}
+                            <a href="{{ event.url }}" class="mt-2 stretched-link link-light">Plus d'informations</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+        {% if starts_row == 0 or forloop.last%}
+        </div>
+        {% endif %}
+    {% endfor %}
+
+</div>

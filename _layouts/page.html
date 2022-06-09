@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<body class="text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+    {% include nav.html %}
+</div>
+
+
+<main>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="fw-light border-bottom border-white mb-5 p-3">{{ page.title }}</h1>
+                <p class="lead">
+                    {{ page.description }}
+                </p>
+            </div>
+        </div>
+    </section>
+
+    {{ content }}
+
+</main>
+
+
+<footer class="mt-auto text-white-50">
+
+</footer>
+
+</body>
