@@ -29,16 +29,6 @@
   desc: "Retrouvez-nous sur l'une des 5 scènes de la ville"
   video_link: ~
 
-- date_day: 25
-  date_month: Juin
-  date_year: 2022
-  date_hour: 16h00
-  title: Fête de la musique
-  location: "Magasin Cultura, Champagne au Mont d'Or"
-  url: https://www.cultura.com/les-magasins/cultura-champagne-mont-d-or.html
-  desc: "Animation musicale à Cultura, à l'occasion de la fête de la musique"
-  video_link: ~
-
 - date_day: 18
   date_month: Nov.
   date_year: 2022
