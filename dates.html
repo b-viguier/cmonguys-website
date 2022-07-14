@@ -40,21 +40,22 @@ description: Envie de passer un moment Funk ? Venez nous écouter !
 
                         <h3 class="mb-0">
                             {{ event.title }}
+                            {% if event.video_link %}
+                            <a href="{{ event.video_link }}" class="m-3 link-light"><i class="bi bi-youtube" aria-label="Vidéo"></i></a>
+                            {% endif %}
                         </h3>
+
                         {%if event.private %}
                         <strong class="d-inline-block mb-2 text-danger">Privé</strong>
                         {% endif %}
 
                         <div class="mb-1 text-muted">
                             {{ event.location }}
-                            {% if event.video_link %}
-                            <a href="{{ event.video_link }}" class="m-3 stretched-link link-light"><i class="bi bi-youtube"></i> Vidéo</a>
-                            {% endif %}
                         </div>
                         <p class="card-text mb-auto">{{ event.desc }}</p>
 
                         {% if event.url %}
-                            <a href="{{ event.url }}" class="mt-2 stretched-link link-light">Plus d'informations</a>
+                            <a href="{{ event.url }}" class="mt-2 link-light">Plus d'informations</a>
                         {% endif %}
                     </div>
                 </div>
