@@ -9,12 +9,10 @@
   desc: "C’est d’abord en tant que saxophoniste que Benoit commence son parcours musical, au travers de diverses formations: quatuor de saxophones, orchestre harmonique, BigBand, ou encore orchestre de variété. Ces affinités musicales le portent rapidement vers le Jazz-Funk et il s’essaye à la composition dans un groupe dédié à ce projet. 
   Cela lui donne l’occasion de pratiquer le clavier en autodidacte, puis de privilégier cet instrument dans de nouvelles formations."
 
-- name: Éric
+- name: Jeff
   inst: Batterie
-  desc: "Bien qu'ayant débuté par la guitare et la basse, Éric a toujours attentivement écouté les batteurs.
-   Il franchit donc le pas, puis joue dans divers groupes et styles: jazz, rock, jazz-rock et maintenant funk.
-   La batterie devient rapidement son instrument préféré (même s'il adore toujours les autres!).
-   Grand amateur du «bon son», il est aussi aux commandes quand il faut mixer les enregistrements."
+  desc: "D’abord percussionniste à l’âge de 12 ans dans la classe d’orchestre de son école de musique, il s’essaye à la batterie dans le groupe rock de ses copains de collège ; mais il écoutera bientôt beaucoup de jazz, et entrera au conservatoire de Givors quelques années plus tard, sous la houlette du batteur Patrick Chastel pour apprendre les rudiments de la batterie jazz.
+   Il navigue ensuite, toujours en amateur, de groupes folk/rock en formations variété/pop, en passant par la chanson française et la soul, pour finalement revenir aux rythmes ternaires du jazz et du funk."
 
 - name: Andgel
   inst: Guitare
