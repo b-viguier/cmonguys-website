@@ -29,13 +29,23 @@
   desc: "Retrouvez-nous sur l'une des 5 scènes de la ville"
   video_link: "https://www.youtube.com/watch?v=eawwJevnFwQ"
 
-- date_day: 18
-  date_month: Nov.
-  date_year: 2022
+- date_day: 4
+  date_month: Fév.
+  date_year: 2023
+  date_hour: À venir
+  title: Resto-Concert
+  location: "Guinguet', à l'Arbresle"
+  url: https://guinguet-larbresle.fr/
+  desc: "Ambiance cosy, chaleureuse... et Funky"
+  video_link: ~
+
+- date_day: 7
+  date_month: Avr.
+  date_year: 2023
   date_hour: 20h30
   title: Bar Concert
   location: "Un air de Janis, Lyon 7"
-  url: https://www.unairdejanis.com/copie-de-evenements
+  url: https://www.unairdejanis.com
   desc: "Soirée Funk!"
   video_link: ~
 
