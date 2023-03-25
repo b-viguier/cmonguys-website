@@ -7,7 +7,6 @@
   location: "Saint-Forgeux"
   url: ~
   desc: "Animation musicale lors d'un repas de lendemain de mariage."
-  video_link: "https://www.youtube.com/watch?v=la9U2Uy-swE"
 
 - date_day: 27
   date_month: Nov.
@@ -59,3 +58,27 @@
   desc: "Soirée Funk!"
   video_link: ~
 
+- date_day: 12
+  date_month: Mai
+  date_year: 2023
+  date_hour: 20h00
+  title: Concert en plein air
+  location: "Grézieu-la-varenne"
+  video_link: ~
+  desc: "Détails à venir..."
+
+- date_day: 17
+  date_month: Juin
+  date_year: 2023
+  date_hour: 20h30
+  title: "Fête de la musique"
+  location: "Soucieu-en-Jarrest"
+  desc: "Détails à venir..."
+
+- date_day: 21
+  date_month: Juin
+  date_year: 2023
+  date_hour: 20h30
+  title: "Fête de la musique"
+  location: "Ninkasi, St Romain en Gal"
+  desc: "Détails à venir..."
