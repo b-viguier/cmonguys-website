@@ -74,7 +74,6 @@
   date_hour: 20h30
   title: "Fête de la musique"
   location: "Soucieu-en-Jarrest"
-  desc: "Détails à venir..."
 
 - date_day: 21
   date_month: Juin
@@ -82,4 +81,33 @@
   date_hour: 20h30
   title: "Fête de la musique"
   location: "Ninkasi, St Romain en Gal"
-  desc: "Détails à venir..."
+
+- date_day: 26
+  date_month: Août
+  date_year: 2023
+  date_hour: ~
+  title: Mariage
+  private: 1
+  location: "Brindas"
+  url: ~
+
+- date_day: 16
+  date_month: Sept.
+  date_year: 2023
+  date_hour: 20h30
+  title: Resto-Concert
+  location: "Guinguet', à l'Arbresle"
+  url: https://guinguet-larbresle.fr/
+  desc: "De retour à Guinget' pour une nouvelle soirée Funk!"
+  video_link: ~
+
+- date_day: 22
+  date_month: Oct.
+  date_year: 2023
+  date_hour: 11h00
+  title: "Animation musicale"
+  location: "Val'Lyonnaise"
+  url: http://vallyonnaise.free.fr/
+  desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
+  video_link: ~
+  
