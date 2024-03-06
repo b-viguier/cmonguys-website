@@ -11,8 +11,7 @@
 
 - name: Jeff
   inst: Batterie
-  desc: "D’abord percussionniste à l’âge de 12 ans dans la classe d’orchestre de son école de musique, il s’essaye à la batterie dans le groupe rock de ses copains de collège ; mais il écoutera bientôt beaucoup de jazz, et entrera au conservatoire de Givors quelques années plus tard, sous la houlette du batteur Patrick Chastel pour apprendre les rudiments de la batterie jazz.
-   Il navigue ensuite, toujours en amateur, de groupes folk/rock en formations variété/pop, en passant par la chanson française et la soul, pour finalement revenir aux rythmes ternaires du jazz et du funk."
+  desc: "D'abord percussionniste, Jeff devient le batteur du groupe rock de son collège. Il est rapidement attiré par le jazz et étudie quelques années plus tard ses rudiments. Au fil du temps, il évoluera au sein de différents groupes, explorant un large éventail de styles musicaux tels que le folk, la pop, ou la chanson française. Finalement, son goût pour les rythmes syncopés du jazz et du funk reprendront le dessus !"
 
 - name: Julien
   inst: Guitare
