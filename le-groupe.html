@@ -21,7 +21,7 @@ description: En 2019 dans l'ouest Lyonnais, grâce au hasard des rencontres musi
                         <h5 class="card-title">{{ member.name }}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">{{ member.inst }}</h6>
                     </div>
-                    <img src="img/members/{{ member.name }}.jpg" class="card-img-bottom" alt="{{ member.name }}">
+                    <img src="img/members/{{ member.name | downcase }}.jpg" class="card-img-bottom" alt="{{ member.name }}">
                     <div class="card-body">
                         <p class="card-text">{{ member.desc }}</p>
                     </div>
