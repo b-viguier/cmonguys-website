@@ -1,8 +1,6 @@
-- name: Chantal
+- name: Patricia
   inst: Chant
-  desc: "Depuis toute petite Chantal aime chanter, que ce soit dans sa chambre (avec sa brosse à cheveux!), en famille, à la maison des jeunes de son quartier ou au coin d'un feu de camp.
-  Ses goûts musicaux sont éclectiques: du rock, folk, du jazz, variété française, bossas, flamenco... et funk bien sûr !
-  Cela lui permettra de chanter dans de nombreuses formations Lyonnaises de tous styles; soirées dansantes, piano bar, restaurants ou encore au Club Med."
+  desc: "Patricia vient de nous rejoindre, sa présentation est en cours de rédaction…"
 
 - name: Benoit
   inst: Clavier
