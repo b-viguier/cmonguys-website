@@ -111,3 +111,21 @@
   desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
   video_link: ~
   
+- date_day: 24
+  date_month: Mai
+  date_year: 2024
+  date_hour: 20h00
+  title: "Resto-concert"
+  location: "Café au Cœur des Gens, Vaugneray"
+  url: https://www.facebook.com/people/Au-coeur-des-gens/100083124192674/
+  desc: "Soirée Funk!"
+  video_link: ~
+
+- date_day: 21
+  date_month: Juin
+  date_year: 2024
+  date_hour: 20h00
+  title: "Fête de la Musique"
+  location: "Taverne de L'Orque Assassine, Lyon 7"
+  url: https://www.orqueassassinetavern.com/
+  video_link: ~
