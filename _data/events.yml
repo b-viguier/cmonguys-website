@@ -129,3 +129,23 @@
   location: "Taverne de L'Orque Assassine, Lyon 7"
   url: https://www.orqueassassinetavern.com/
   video_link: "https://www.youtube.com/playlist?list=PLrch70HWtn5mJ_naeWBn9Ow1MUpMEIAQt"
+
+- date_day: 6
+  date_month: Oct.
+  date_year: 2024
+  date_hour: 16h00
+  title: "Inauguration"
+  location: "Pollionnay"
+  url: http://www.genevievedumont.fr/
+  desc: "Inauguration festive du sentier artistique."
+  video_link: ~
+
+- date_day: 20
+  date_month: Oct.
+  date_year: 2024
+  date_hour: 11h00
+  title: "Animation musicale"
+  location: "Val'Lyonnaise"
+  url: https://www.vallyonnaise.fr/
+  desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
+  video_link: ~
