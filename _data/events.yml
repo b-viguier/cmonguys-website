@@ -149,3 +149,13 @@
   url: https://www.vallyonnaise.fr/
   desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
   video_link: ~
+
+- date_day: 13
+  date_month: Déc.
+  date_year: 2024
+  date_hour: 21h00
+  title: "Resto-Concert"
+  location: "Ninkasi, Brignais"
+  url: https://www.ninkasi.fr/agenda/cmon-guys/
+  desc: "Soirée Funk!"
+  video_link: ~
