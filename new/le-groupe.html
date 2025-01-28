@@ -1,0 +1,126 @@
+---
+layout: v2
+id: group
+title: Le Groupe
+css_files:
+  - main_styles.css
+  - responsive.css
+js_files:
+  - custom.js
+---
+
+<!-- Home -->
+
+<div class="">
+	<div class="home_inner">
+		<div class="home_container">
+			<div class="home_content text-center">
+				<div class="home_subtitle"></div>
+				<div class="home_title"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Extra -->
+
+	<div class="extra">
+		<div class="extra_container">
+			<div class="background_image" style=""></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+							<div class="extra_title"><h1>Le Groupe</h1></div>
+							<div class="extra_text">
+								<p>
+									En 2019 dans l'ouest Lyonnais, grâce au hasard des rencontres musicales,
+									un début de groupe se forme avec une chanteuse, un batteur, un bassiste et un guitariste.
+									La bonne humeur et la musique Funk font bons ménages et un clavier vient compléter la formation, toujours dans la bonne humeur.
+									Après avoir agrandi son répertoire et s'être trouvé un nom, les <i>C'mon Guys</i> commencent à se
+									lancer dans le grand bain des représentations et enregistrements.
+								</p>
+							</div>
+							<div class="extra_button"><a href="contact.html">Nous contacter</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Artist -->
+	{% for member in site.data.members %}
+	<div class="artist">
+		<div class="container">
+			<div class="row">
+
+				<!-- Artist Image -->
+				<div class="col-lg-3 artist_image_col">
+					<div class="artist_image">
+						<img src="images/m_{{ member.name | downcase }}.jpg" alt="">
+					</div>
+				</div>
+
+				<!-- Artist Content -->
+				<div class="col-lg-8 offset-lg-1">
+					<div class="artist_content">
+						<div class="section_title_container">
+							<div class="section_subtitle">{{ member.inst }}</div>
+							<div class="section_title"><h1>{{ member.name }}</h1></div>
+						</div>
+						<div class="artist_text">
+							<p>{{ member.desc }}</p>
+						</div>
+						<!--                    <div class="artist_sig"><img src="images/sig.png" alt=""></div>-->
+						<!--                    <div class="single_player_container d-flex flex-column align-items-start justify-content-center">-->
+						<!--                        <div class="single_player">-->
+						<!--                            <div id="jplayer_2" class="jp-jplayer"></div>-->
+						<!--                            <div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">-->
+						<!--                                <div class="jp-type-single">-->
+						<!--                                    <div class="player_details d-flex flex-row align-items-center justify-content-start">-->
+						<!--                                        <div class="jp-details">-->
+						<!--                                            <div>playing</div>-->
+						<!--                                            <div class="jp-title" aria-label="title">&nbsp;</div>-->
+						<!--                                        </div>-->
+						<!--                                        <div class="jp-controls-holder ml-auto">-->
+						<!--                                            <button class="jp-play" tabindex="0"></button>-->
+						<!--                                        </div>-->
+						<!--                                    </div>-->
+						<!--                                    <div class="player_controls">-->
+						<!--                                        <div class="jp-gui jp-interface d-flex flex-row align-items-center justify-content-start">-->
+						<!--                                            <div class="jp-controls-holder time_controls d-flex flex-row align-items-center justify-content-start">-->
+						<!--                                                <div><div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div></div>-->
+						<!--                                                <div class="jp-progress">-->
+						<!--                                                    <div class="jp-seek-bar">-->
+						<!--                                                        <div class="jp-play-bar"></div>-->
+						<!--                                                    </div>-->
+						<!--                                                </div>-->
+						<!--                                                <div><div class="jp-duration ml-auto" role="timer" aria-label="duration">&nbsp;</div></div>-->
+						<!--                                            </div>-->
+						<!--                                            <div class="jp-volume-controls d-flex flex-row align-items-center justify-content-start ml-auto">-->
+						<!--                                                <button class="jp-mute" tabindex="0"></button>-->
+						<!--                                                <div class="jp-volume-bar">-->
+						<!--                                                    <div class="jp-volume-bar-value"></div>-->
+						<!--                                                </div>-->
+						<!--                                            </div>-->
+						<!--                                        </div>-->
+						<!--                                    </div>-->
+						<!--                                    <div class="jp-no-solution">-->
+						<!--                                        <span>Update Required</span>-->
+						<!--                                        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>-->
+						<!--                                    </div>-->
+						<!--                                </div>-->
+						<!--                            </div>-->
+
+						<!--                        </div>-->
+						<!--                    </div>-->
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+
+
