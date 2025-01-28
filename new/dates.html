@@ -1,0 +1,84 @@
+---
+layout: v2
+title: Les Dates
+id: dates
+description: Envie de passer un moment Funk ? Venez nous écouter !
+css_files:
+  - main_styles.css
+  - responsive.css
+js_files:
+  - custom.js
+---
+<div class="header_filler"></div>
+
+	<!-- Shows -->
+{% for year in (2020..2030) reversed %}
+	{% assign atLeastOneEvent = 0 %}
+	{% for event in site.data.events %}
+		{% if event.date_year == year %}
+			{% assign atLeastOneEvent = 1 %}
+			{% break %}
+		{% endif %}
+	{% endfor %}
+
+	{% if atLeastOneEvent == 0 %}
+		{% continue %}
+	{% endif %}
+
+	<div class="shows">
+		<div class="container">
+			<div class="row" style="z-index:10;">
+				<div class="col">
+					<div class="section_title_container">
+						<div class="section_subtitle">Les Concerts</div>
+						<div class="section_title"><h1>{{ year }}</h1></div>
+					</div>
+				</div>
+			</div>
+			<div class="row shows_row">
+				
+				<!-- Shows List -->
+				<div class="col-lg-8 order-lg-1 order-2 shows_list_col">
+					<div class="shows_list_container">
+						<ul class="shows_list">
+							{% assign events = site.data.events | reverse %}
+							{% for event in events %}
+							{% if event.date_year == year %}
+
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div><div class="show_date">{{ event.date_day }} {{event.date_month}}</div></div>
+								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
+<!--									<div class="show_name"><a href="{{ event.url }}">{{event.title}}</a></div>-->
+									<div class="show_location">{{event.location}}</div>
+								</div>
+
+								<div class="ml-auto">
+									{% if event.url %}
+									<div class="show_shop trans_200"><a href="{{ event.url }}">+Infos</a></div>
+									{% endif %}
+								</div>
+							</li>
+							{% endif %}
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+
+				<!-- Shows Image -->
+				<div class="col-lg-4 order-lg-2 order-1 d-none d-lg-block">
+					<div class="shows_image">
+						<div class="image_overlay"></div>
+						<img src="images/year_{% cycle 0,1,2 %}.jpg">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+{% endfor %}
+
+
+
+
+
+
