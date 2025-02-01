@@ -190,12 +190,18 @@
 	{
 		margin-top: 71px;
 	}
+
+	.artist_content
+	{
+		padding-top: 40px;
+	}
+
 	.artist_image_col
 	{
 		position: absolute;
 	    width: 100%;
 	    right: 0;
-	    top: 50px;
+	    /*top: 50px;*/
 	    text-align: right;
 	}
 	.artist_image
@@ -270,7 +276,7 @@
 	}
 	.artist_image_col
 	{
-		top: 130px;
+		top: 0px;
 	}
 	.artist_image img
 	{

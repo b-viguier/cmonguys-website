@@ -632,12 +632,12 @@
 
 .artist
 {
-	padding-bottom: 106px;
+	padding-bottom: 64px;
 	background: #000000;
 }
 .artist_content
 {
-	padding-top: 191px;
+	padding-top: 20px;
 }
 .artist_image
 {
@@ -647,14 +647,12 @@
 }
 .artist_image img
 {
-	max-width: 100%;
+	/*max-width: 100%;*/
 	border-right: 8px solid #de4f32;
-	/*
 	width:445px;
 	height:400px;
 	object-fit: cover;
-	*/
-	/*object-position: top;*/
+	object-position: right top;
 }
 .artist_text
 {
