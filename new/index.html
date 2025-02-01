@@ -13,7 +13,7 @@ js_files:
 <!-- Home -->
 
 <div class="home">
-	<div class="home_slider_container">
+	<div class="home_slider_container" style="border-right: 8px solid rgba(222,79,51,0.4); ">
 
 		<!-- Home Slider -->
 		<div class="owl-carousel owl-theme home_slider">
@@ -21,12 +21,12 @@ js_files:
 			{% assign images = "year_4,year_0,year_1,year_2,year_3" | split: "," %}
 			{% for img in images %}
 			<div class="owl-item">
-				<div class="background_image" style="background-image:url(images/{{ img }}.jpg)"></div>
+				<div class="background_image" style="background-image:url(images/{{ img }}.jpg); background-size: cover;"></div>
 				<div class="home_container">
 					<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 						<div class="home_content text-center">
 							<div class="home_link"><a href="contact.html">
-								{% cycle "Funk","Groove","Jazz-Funk","Soul","C'mon Guys!" %}
+								<b>{% cycle "Funk","Groove","Jazz","Soul","C'mon Guys!" %}</b>
 							</a></div>
 						</div>
 					</div>
@@ -39,114 +39,27 @@ js_files:
 	</div>
 </div>
 
-<div class="extra" style="margin-top:10px">
-	<div class="extra_container">
+<div class="extra" style="margin-top:10px;">
+	<div class="extra_container" style="border-right: 8px solid rgba(222,79,51,0.4); ">
 		<div class="background_image" style="background-image:url(images/index.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9">
-					<div class="extra_content d-flex flex-column align-items-start justify-content-center">
-						<div class="extra_title"><h1>C'mon Guys</h1></div>
-						<div class="extra_text">
+					<div class="extra_content d-flex flex-column align-items-start justify-content-start">
+						<div class="extra_title home_link" style="background-color: rgba(18,7,5,0.7)">
+							<h1>C'mon Guys</h1>
+						</div>
+						<div class="extra_text" style="background-color: rgba(18,7,5,0.7)">
 							<p>
 								Groupe de musique Funk en région Lyonnaise. <a href="/le-groupe.html" class="link-light">En savoir plus...</a>
 							</p>
 						</div>
-						<div class="extra_button"><a href="contact.html">Nous contacter</a></div>
 					</div>
+					<div class="extra_button" style="margin-bottom: 10px;"><a href="contact.html">Nous contacter</a></div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-	<!-- Featured Album -->
-
-<!--	<div class="featured_album">-->
-<!--		<div class="background_image featured_background" style="background-image:url(images/featured.png)"></div>-->
-<!--		<div class="container">-->
-<!--			<div class="row">-->
-<!--				<div class="col-lg-6 offset-lg-6">-->
-<!--					<div class="section_title_container">-->
-<!--						<div class="section_subtitle">Events</div>-->
-<!--						<div class="section_title"><h1>Featured Album</h1></div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--			<div class="row featured_row row-lg-eq-height">-->
-
-<!--				&lt;!&ndash; Featured Album Image &ndash;&gt;-->
-<!--				<div class="col-md-6">-->
-<!--					<div class="featured_album_image">-->
-<!--						<div class="image_overlay"></div>-->
-<!--						<div class="background_image" style="background-image:url(images/featured_album.jpg)"></div>-->
-<!--						&lt;!&ndash; <img src="images/featured_album.jpg" alt=""> &ndash;&gt;-->
-<!--					</div>-->
-<!--				</div>-->
-
-<!--				&lt;!&ndash; Featured Album Player &ndash;&gt;-->
-<!--				<div class="col-md-6 featured_album_col">-->
-<!--					<div class="featured_album_player_container d-flex flex-column align-items-start justify-content-center">-->
-<!--						<div class="featured_album_player">-->
-<!--							<div class="featured_album_title_bar d-flex flex-row align-items-center justify-content-start">-->
-<!--								<div class="featured_album_title_container">-->
-<!--									<div class="featured_album_artist">Maria Smith</div>-->
-<!--									<div class="featured_album_title">Love is all Around</div>-->
-<!--								</div>-->
-<!--								<div class="featured_album_link ml-auto"><a href="#">buy it on itunes</a></div>-->
-<!--							</div>-->
-<!--							<div id="jplayer_1" class="jp-jplayer"></div>-->
-<!--							<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">-->
-<!--								<div class="jp-type-playlist">-->
-<!--									<div class="jp-playlist">-->
-<!--										<ul>-->
-<!--											<li></li>-->
-<!--										</ul>-->
-<!--									</div>-->
-<!--									<div class="player_details d-flex flex-row align-items-center justify-content-start">-->
-<!--										<div class="jp-details">-->
-<!--											<div>playing</div>-->
-<!--											<div class="jp-title" aria-label="title">&nbsp;</div>-->
-<!--										</div>-->
-<!--										<div class="jp-controls-holder ml-auto">-->
-<!--											<button class="jp-play" tabindex="0"></button>-->
-<!--										</div>-->
-<!--									</div>-->
-<!--									<div class="player_controls">-->
-<!--										<div class="jp-gui jp-interface d-flex flex-row align-items-center justify-content-start">-->
-<!--											<div class="jp-controls-holder time_controls d-flex flex-row align-items-center justify-content-start">-->
-<!--												<div><div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div></div>-->
-<!--												<div class="jp-progress">-->
-<!--													<div class="jp-seek-bar">-->
-<!--														<div class="jp-play-bar"></div>-->
-<!--													</div>-->
-<!--												</div>-->
-<!--												<div><div class="jp-duration ml-auto" role="timer" aria-label="duration">&nbsp;</div></div>-->
-<!--											</div>-->
-<!--											<div class="jp-volume-controls d-flex flex-row align-items-center justify-content-start ml-auto">-->
-<!--												<button class="jp-mute" tabindex="0"></button>-->
-<!--												<div class="jp-volume-bar">-->
-<!--													<div class="jp-volume-bar-value"></div>-->
-<!--												</div>-->
-<!--											</div>-->
-<!--										</div>-->
-<!--									</div>-->
-<!--									<div class="jp-no-solution">-->
-<!--										<span>Update Required</span>-->
-<!--										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-
-<!--			</div>-->
-<!--		</div>-->
-<!--	</div>-->
-
-
-
-
 
