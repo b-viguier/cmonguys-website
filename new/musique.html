@@ -1,0 +1,36 @@
+---
+layout: v2
+id: music
+title: Notre Musique
+css_files:
+- single.css
+- single_responsive.css
+js_files:
+- single.js
+---
+<div class="header_filler"></div>
+
+<!-- Video -->
+
+<div class="video">
+	<div class="container">
+		<h1>Vidéos</h1>
+		<div class="row" style="margin-bottom: 10px;">
+			<div class="section d-flex justify-content-center embed-responsive embed-responsive-4by3 cmonguys_border">
+				<video class="embed-responsive-item" autoplay loop muted>
+					<source src="images/CmonGuys-Ninkasi-2024.mp4" type="video/mp4" />
+				</video>
+			</div>
+		</div>
+
+		{% for id in (1..3) %}
+		<div class="row" style="margin-bottom: 10px;">
+			<div class="col cmonguys_border">
+				<div class="video_container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/{% cycle "khxdzYpJpdU", "Q8R1SRirrpo", "gTAiFYYuMqA" %}?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

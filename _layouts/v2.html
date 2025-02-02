@@ -29,6 +29,7 @@
                 <ul class="d-flex flex-row align-items-start justify-content-start">
                     <li class="{% if page.id=='home' %}active{% endif %}"><a href="index.html">Accueil</a></li>
                     <li class="{% if page.id=='group' %}active{% endif %}"><a href="le-groupe.html">Le Groupe</a></li>
+                    <li class="{% if page.id=='music' %}active{% endif %}"><a href="musique.html">Musique</a></li>
                     <li class="{% if page.id=='dates' %}active{% endif %}"><a href="dates.html">Les Dates</a></li>
                     <li class="{% if page.id=='contact' %}active{% endif %}"><a href="contact.html">Contact</a></li>
                 </ul>
@@ -54,6 +55,7 @@
                     <ul class="d-flex flex-column align-items-start justify-content-start">
                         <li class="{% if page.id=='home' %}active{% endif %}"><a href="index.html">Accueil</a></li>
                         <li class="{% if page.id=='group' %}active{% endif %}"><a href="le-groupe.html">Le Groupe</a></li>
+                        <li class="{% if page.id=='music' %}active{% endif %}"><a href="musique.html">Musique</a></li>
                         <li class="{% if page.id=='dates' %}active{% endif %}"><a href="dates.html">Les Dates</a></li>
                         <li class="{% if page.id=='contact' %}active{% endif %}"><a href="contact.html">Contact</a></li>
                     </ul>
@@ -64,57 +66,6 @@
 
     {{ content }}
 
-    <!-- Footer -->
-
-<!--    <footer class="footer">-->
-<!--        <div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">-->
-<!--&lt;!&ndash;            <div class="newsletter_container">&ndash;&gt;-->
-<!--&lt;!&ndash;                <div class="newsletter_title"><h2>Subscribe to our newsletter</h2></div>&ndash;&gt;-->
-<!--&lt;!&ndash;                <form action="#" id="newsletter_form" class="newsletter_form">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <button class="newsletter_button">Subscribe</button>&ndash;&gt;-->
-<!--&lt;!&ndash;                </form>&ndash;&gt;-->
-<!--&lt;!&ndash;            </div>&ndash;&gt;-->
-<!--            <div class="footer_lists d-flex flex-sm-row  flex-column align-items-start justify-content-start ml-xl-auto">-->
-
-<!--                &lt;!&ndash; Useful Links &ndash;&gt;-->
-<!--                <div class="footer_list">-->
-<!--                    <div class="footer_list_title">Useful Links</div>-->
-<!--                    <ul>-->
-<!--                        <li><a href="index.html">Accueil</a></li>-->
-<!--                        <li><a href="about.html">About us</a></li>-->
-<!--                        <li><a href="#">Testimonials</a></li>-->
-<!--                        <li><a href="#">Music</a></li>-->
-<!--                        <li><a href="blog.html">News</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--                &lt;!&ndash; Mixtape &ndash;&gt;-->
-<!--                <div class="footer_list">-->
-<!--                    <div class="footer_list_title">Mixtape</div>-->
-<!--                    <ul>-->
-<!--                        <li><a href="#">Music</a></li>-->
-<!--                        <li><a href="#">PR & Marketing</a></li>-->
-<!--                        <li><a href="#">Contact</a></li>-->
-<!--                        <li><a href="#">About us</a></li>-->
-<!--                        <li><a href="#">Testimonials</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--                &lt;!&ndash; Connect &ndash;&gt;-->
-<!--                <div class="footer_list">-->
-<!--                    <div class="footer_list_title">Connect</div>-->
-<!--                    <ul>-->
-<!--                        <li><a href="#">Returns</a></li>-->
-<!--                        <li><a href="#">Shippings</a></li>-->
-<!--                        <li><a href="#">Jobs</a></li>-->
-<!--                        <li><a href="#">Social Media</a></li>-->
-<!--                        <li><a href="#">Soundcloud</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--            </div>-->
-<!--        </div>-->
 
         <div class="copyright_bar">
 			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -139,6 +90,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
 <script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
+<script src="plugins/fit-vids/jquery.fitvids.js"></script>
 {% for js_file in page.js_files %}
 <script src="js/{{ js_file }}"></script>
 {% endfor %}
