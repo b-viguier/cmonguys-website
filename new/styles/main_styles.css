@@ -28,7 +28,7 @@
 .home
 {
 	width: 100%;
-	height: 600px;
+	height: 300px;
 	padding-left: 51px;
 	padding-right: 52px;
 }
@@ -525,10 +525,21 @@
 7. Shows
 *********************************/
 
-.shows
-{
-	padding-top: 175px;
+.styled-scrollbars {
+	/* Foreground, Background */
+	scrollbar-color: #de4f32 #0000;
+	overflow-y:auto;
+	border-bottom: 15px solid #de4f32aa;
+	border-top: 15px solid #de4f32aa;
 }
+.styled-scrollbars::-webkit-scrollbar-thumb { /* Foreground */
+	background: #de4f32;
+}
+.styled-scrollbars::-webkit-scrollbar-track { /* Background */
+	background: #0000;
+}
+
+
 .shows_row
 {
 	margin-top: -55px;
@@ -647,12 +658,10 @@
 }
 .artist_image img
 {
-	/*max-width: 100%;*/
-	border-right: 8px solid #de4f32;
 	width:445px;
 	height:400px;
 	object-fit: cover;
-	object-position: right top;
+	object-position: center top;
 }
 .artist_text
 {

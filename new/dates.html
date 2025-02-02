@@ -9,7 +9,7 @@ css_files:
 js_files:
   - custom.js
 ---
-
+<div class="header_filler"></div>
 
 	<!-- Shows -->
 {% for year in (2020..2030) reversed %}
@@ -65,7 +65,7 @@ js_files:
 				</div>
 
 				<!-- Shows Image -->
-				<div class="col-lg-4 order-lg-2 order-1">
+				<div class="col-lg-4 order-lg-2 order-1 d-none d-lg-block">
 					<div class="shows_image">
 						<div class="image_overlay"></div>
 						<img src="images/year_{% cycle 0,1,2 %}.jpg">

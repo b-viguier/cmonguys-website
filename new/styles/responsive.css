@@ -70,6 +70,11 @@
 
 @media only screen and (max-width: 1199px)
 {
+	.shows_row
+	{
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
 	.shows_image
 	{
 		left: -198px;
@@ -173,14 +178,14 @@
 	}
 	.shows_list_col
 	{
-		position: absolute;
-		top: 50%;
-		left: 0;
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
+		/*position: absolute;*/
+		/*top: 50%;*/
+		/*left: 0;*/
+		/*-webkit-transform: translateY(-50%);*/
+		/*-moz-transform: translateY(-50%);*/
+		/*-ms-transform: translateY(-50%);*/
+		/*-o-transform: translateY(-50%);*/
+		/*transform: translateY(-50%);*/
 	}
 	.shows_list li
 	{
@@ -188,7 +193,7 @@
 	}
 	.shows_row
 	{
-		margin-top: 71px;
+		/*margin-top: 71px;*/
 	}
 
 	.artist_content
@@ -357,11 +362,11 @@
 	}
 	.show_date
 	{
-		width: 68px;
+		width: 58px;
 	}
 	.show_shop
 	{
-		width: 100px;
+		width: 50px;
 	}
 	.single_player_container
 	{

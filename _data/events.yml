@@ -23,7 +23,7 @@
   date_year: 2022
   date_hour: 18h30
   title: Fête de la musique
-  location: "Soucieu-en-Jarrest, Place J.Condamin"
+  location: "Soucieu-en-Jarrest"
   url: http://www.soucieu-en-jarrest.fr/images/pdf/Fly_Soucieu_fete_a_diffuser.pdf
   desc: "Retrouvez-nous sur l'une des 5 scènes de la ville"
   video_link: "https://www.youtube.com/watch?v=eawwJevnFwQ"
@@ -43,7 +43,7 @@
   date_year: 2023
   date_hour: 20h30
   title: Resto-Concert
-  location: "Guinguet', à l'Arbresle"
+  location: "Guinguet', l'Arbresle"
   url: https://guinguet-larbresle.fr/
   desc: "Ambiance cosy, chaleureuse... et Funky"
   video_link: ~
@@ -53,7 +53,7 @@
   date_year: 2023
   date_hour: 20h30
   title: Bar Concert
-  location: "Un air de Janis, Lyon 7"
+  location: "Un air de Janis"
   url: https://www.unairdejanis.com
   desc: "Soirée Funk!"
   video_link: ~
@@ -96,7 +96,7 @@
   date_year: 2023
   date_hour: 20h30
   title: Resto-Concert
-  location: "Guinguet', à l'Arbresle"
+  location: "Guinguet', l'Arbresle"
   url: https://guinguet-larbresle.fr/
   desc: "De retour à Guinget' pour une nouvelle soirée Funk!"
   video_link: ~
@@ -106,7 +106,7 @@
   date_year: 2023
   date_hour: 11h00
   title: "Animation musicale"
-  location: "Val'Lyonnaise"
+  location: "Val' Lyonnaise"
   url: http://vallyonnaise.free.fr/
   desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
   video_link: ~
@@ -116,7 +116,7 @@
   date_year: 2024
   date_hour: 20h00
   title: "Resto-concert"
-  location: "Café au Cœur des Gens, Vaugneray"
+  location: "Café au Cœur des Gens"
   url: https://www.facebook.com/people/Au-coeur-des-gens/100083124192674/
   desc: "Soirée Funk!"
   video_link: ~
@@ -126,7 +126,7 @@
   date_year: 2024
   date_hour: 20h00
   title: "Fête de la Musique"
-  location: "Taverne de L'Orque Assassine, Lyon 7"
+  location: "Taverne de L'Orque Assassine"
   url: https://www.orqueassassinetavern.com/
   video_link: "https://www.youtube.com/playlist?list=PLrch70HWtn5mJ_naeWBn9Ow1MUpMEIAQt"
 
@@ -145,7 +145,7 @@
   date_year: 2024
   date_hour: 11h00
   title: "Animation musicale"
-  location: "Val'Lyonnaise"
+  location: "Val' Lyonnaise"
   url: https://www.vallyonnaise.fr/
   desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
   video_link: ~

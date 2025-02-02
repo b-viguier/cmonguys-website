@@ -18,6 +18,10 @@
 2. Body and some general stuff
 *********************************/
 
+.cmonguys_border {
+    border-right: 8px solid rgba(222,79,51,0.4);
+}
+
 *
 {
     margin: 0;
@@ -415,11 +419,11 @@ section
 {
     height: 2px;
     background: #FFFFFF;
-    -webkit-transition: all 400ms ease;
-    -moz-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    -o-transition: all 400ms ease;
-    transition: all 400ms ease;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
 }
 .hamburger > div > div:first-child
 {
@@ -438,6 +442,10 @@ section
     width: 100%;
 }
 
+.header_filler {
+    height: 125px;
+}
+
 /*********************************
 4. Menu
 *********************************/
@@ -452,11 +460,6 @@ section
     z-index: 101;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: all 800ms ease;
-    -moz-transition: all 800ms ease;
-    -ms-transition: all 800ms ease;
-    -o-transition: all 800ms ease;
-    transition: all 800ms ease;
 }
 .menu_overlay
 {
@@ -488,11 +491,11 @@ section
     transform: translateY(-50%);
     right: -300px;
     width: 300px;
-    -webkit-transition: all 100ms 100ms ease;
-    -moz-transition: all 100ms 100ms ease;
-    -ms-transition: all 100ms 100ms ease;
-    -o-transition: all 100ms 100ms ease;
-    transition: all 100ms 100ms ease;
+    -webkit-transition: all 200ms 200ms ease;
+    -moz-transition: all 200ms 200ms ease;
+    -ms-transition: all 200ms 200ms ease;
+    -o-transition: all 200ms 200ms ease;
+    transition: all 200ms 200ms ease;
 }
 .menu.active .menu_container
 {
@@ -540,7 +543,9 @@ section
     padding-right: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: solid 5px #de4f32;
+    border-top: solid 2px #de4f32;
+    border-left: solid 2px #de4f32;
+    border-bottom: solid 2px #de4f32;
 }
 .menu_nav ul li
 {
