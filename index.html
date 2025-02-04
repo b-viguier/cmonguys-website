@@ -1,46 +1,69 @@
 ---
-layout: default
-title: Bienvenue
+layout: v2
 id: home
+title: CmonGuys
+css_files:
+  - main_styles.css
+  - responsive.css
+js_files:
+  - custom.js
 ---
+<div class="header_filler"></div>
+<div class="extra" style="margin-top:10px; margin-bottom: 10px">
+	<div class="extra_container cmonguys_border">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="extra_content d-flex flex-column align-items-start justify-content-start" style="height: auto;">
+						<div class="extra_title home_link" style="background-color: rgba(18,7,5,0.7)">
+							<h1>C'mon Guys</h1>
+						</div>
+						<div class="extra_text" style="background-color: rgba(18,7,5,0.7)">
+							<p>
+								Groupe de musique Funk en région Lyonnaise. <a href="/le-groupe.html" class="link-light">En savoir plus...</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="extra_button" style="margin-bottom: 10px;"><a href="contact.html">Nous contacter</a></div>
 
-<body class="d-flex h-100 text-center text-white bg-dark">
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-
-{% include nav.html %}
-
-<main class="px-3">
-    <div class="row">
-        <div class="col-12 col-sm-6 m-auto p-3">
-            <img src="img/logo.jpeg" class="img-fluid rounded-circle mx-auto d-block" alt="C'Mon Guys logo">
-        </div>
-        <div class="col-12 col-sm-6 m-auto">
-            <p class="row lead">
-                <a class="btn btn-lg btn-secondary fw-bold border-white bg-white" href="https://www.youtube.com/channel/UCr6TeAWNr1rP7RGJjVgMMfQ">Youtube</a>
-            </p>
-            <p class="row lead">
-                <a class="btn btn-lg btn-secondary fw-bold border-white bg-white" href="https://soundcloud.com/cmonguys-funk">SoundCloud</a>
-            </p>
-            <p class="row lead">
-                <a class="btn btn-lg btn-secondary fw-bold border-white bg-white" href="https://www.facebook.com/Cmon-Guys-Funk-Music-100271752365867/">Facebook</a>
-            </p>
-            <p class="row lead">
-                <a class="btn btn-lg btn-secondary fw-bold border-white bg-white" href="mailto:contact@cmonguys.fr">Email</a>
-            </p>
-        </div>
-    </div>
-    <p>
-       Groupe de musique Funk en région Lyonnaise. <a href="/le-groupe.html" class="link-light">En savoir plus...</a>
-    </p>
-</main>
-
-<footer class="mt-auto text-white-50">
-
-</footer>
-
-
-</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<img src="images/index.jpg" alt="Le groupe CmonGuys" class="" style="max-height: 300px; width: 100%; object-fit: cover;">
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
+<!-- Home -->
+<div class="home">
+	<div class="home_slider_container cmonguys_border">
 
-</body>
+		<!-- Home Slider -->
+		<div class="owl-carousel owl-theme home_slider">
+
+			{% assign images = "year_4,year_0,year_1,year_2,year_3" | split: "," %}
+			{% for img in images %}
+			<div class="owl-item">
+				<div class="background_image" style="background-image:url(images/{{ img }}.jpg); background-size: cover;"></div>
+				<div class="home_container">
+					<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
+						<div class="home_content text-center">
+							<div class="home_link"><a href="contact.html">
+								<b>{% cycle "Funk","Groove","Jazz","Soul","C'mon Guys!" %}</b>
+							</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+
+
+		</div>
+	</div>
+</div>
+
