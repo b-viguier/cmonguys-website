@@ -23,6 +23,20 @@ js_files:
 			</div>
 		</div>
 
+		<div class="row" style="margin-bottom: 10px;">
+			{% for id in (1..3) %}
+			<div class="col-md-4 col-sm-12 cmonguys_border">
+				<div class="video_container">
+					<iframe width="186" height="315"
+							src="https://youtube.com/embed/{% cycle "w3F6AEdAQ5A", "mddTQ7Rc7a4", "U4r0Qlb49cw", "-zAegXy9cXg" %}"
+							frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+					</iframe>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+
 		{% for id in (1..3) %}
 		<div class="row" style="margin-bottom: 10px;">
 			<div class="col cmonguys_border">
