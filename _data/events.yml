@@ -167,3 +167,21 @@
   title: "Fête de la musique"
   location: "Ninkasi, St Romain en Gal"
   url: "https://www.ninkasi.fr/agenda/fete-de-la-musique-cmon-guys-2/"
+
+- date_day: 19
+  date_month: Oct.
+  date_year: 2025
+  date_hour: 11h00
+  title: "Animation musicale"
+  location: "Val' Lyonnaise"
+  url: https://www.vallyonnaise.fr/
+  desc: "Animation musicale à l'arrivée de la course de la Val'Lyonnaise."
+
+- date_day: 12
+  date_month: Nov.
+  date_year: 2025
+  date_hour: 20h00
+  title: ""
+  location: "IDEE ALE, Lentilly"
+  url: "http://www.ideeale69.com/evenements/a-venir/"
+
