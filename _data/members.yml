@@ -1,7 +1,9 @@
-- name: Patricia
+- name: Christina
   inst: Chant
-  desc: "Elle débute la musique vers l'âge de 10 ans avec des cours d'orgue classique et jazz.
-  Puis la découverte du chant à 20 ans, des cours, et rapidement une audition pour un groupe polyphonique de 8 chanteurs. Elle enchaine  ensuite piano bar en jazz, orchestre de variété, chant dans la rue (notamment aux Francofolies de La Rochelle) et quelques belles scènes comme l'Olympia en tant qu'invitée avec son groupe vocal. Avec la formation Opus Tribu, elle partage la scène avec des artistes de renom. Pour autant, l'important reste pour elle l'instant présent, l'osmose avec les musiciens et le public."
+  desc: "Christina est une chanteuse, pianiste, compositrice et pédagogue d’origine grecque, basée à Lyon.
+   S’inspirant des traditions jazz, classique et balkaniques, elle développe un univers musical original qui reflète à la fois ses racines et son parcours éclectique. Parallèlement à son activité pédagogique en piano et chant, elle compose et collabore sur des projets qui explorent la fusion des genres.
+   Sur scène, Christina s’est produite de manière extensive aux Pays-Bas et en Allemagne, et en 2025 elle a rejoint le groupe de funk C’mon Guys. Elle a également publié trois singles (Elegy For a True Musical Prince, Reflection Bridge, Epiklisis,). Dans sa pratique pédagogique comme sur scène, elle considère la musique comme un espace de créativité et de connexion."
+  link: https://www.christinagpapadopoulou.art/
 
 - name: Benoit
   inst: Clavier
