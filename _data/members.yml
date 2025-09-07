@@ -12,17 +12,19 @@
   desc: "C’est d’abord en tant que saxophoniste que Benoit commence son parcours musical, au travers de diverses formations: quatuor de saxophones, orchestre harmonique, BigBand, ou encore orchestre de variété. Ces affinités musicales le portent rapidement vers le Jazz-Funk et il s’essaye à la composition dans un groupe dédié à ce projet. 
   Cela lui donne l’occasion de pratiquer le clavier en autodidacte, puis de privilégier cet instrument dans de nouvelles formations."
 
-- name: Jeff
-  inst: Batterie
-  picture: m_jeff.jpg
-  desc: "D'abord percussionniste, Jeff devient le batteur du groupe rock de son collège. Il est rapidement attiré par le jazz et étudie quelques années plus tard ses rudiments. Au fil du temps, il évoluera au sein de différents groupes, explorant un large éventail de styles musicaux tels que le folk, la pop, ou la chanson française. Finalement, son goût pour les rythmes syncopés du jazz et du funk reprendront le dessus !"
-
 - name: Julien
   inst: Guitare
   picture: m_julien.jpg
   desc: "Passionné de musique depuis toujours et guitariste depuis plus de 30 ans, Julien aime jouer des styles différents sur ses nombreuses guitares.
    Il a joué dans diverses formations et a même fait partie d'un groupe en tant que bassiste-chanteur. 
    Ce qu'il aime par-dessus tout, c'est de Groover et faire Groover !"
+
+- name: Benoit
+  inst: Batterie
+  picture: m_benoit_drum.jpeg
+  desc: "Bercé depuis son plus jeune âge par un environnement musical familial, Benoit s’est orienté vers l’âge de 10 ans vers la rythmique en choisissant la batterie comme instrument de prédilection. 
+   Instrument qui ne le lâchera plus ensuite ! 
+   Animé par le Groove, il affectionne particulierement les répertoires funk de Jamiroquai, Stevie Wonder, Brand New Heavies ou encore de Sinclair."
 
 - name: Thierry
   inst: Basse
