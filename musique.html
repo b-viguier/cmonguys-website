@@ -24,11 +24,11 @@ js_files:
 		</div>
 
 		<div class="row" style="margin-bottom: 10px;">
-			{% for id in (1..3) %}
+			{% for short in site.data.shorts %}
 			<div class="col-md-4 col-sm-12 cmonguys_border">
 				<div class="video_container">
 					<iframe width="186" height="315"
-							src="https://youtube.com/embed/{% cycle "w3F6AEdAQ5A", "mddTQ7Rc7a4", "U4r0Qlb49cw", "-zAegXy9cXg" %}"
+							src="https://youtube.com/embed/{{ short.id }}"
 							frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 					</iframe>
@@ -37,11 +37,11 @@ js_files:
 			{% endfor %}
 		</div>
 
-		{% for id in (1..3) %}
+		{% for id in (1..1) %}
 		<div class="row" style="margin-bottom: 10px;">
 			<div class="col cmonguys_border">
 				<div class="video_container">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/{% cycle "khxdzYpJpdU", "Q8R1SRirrpo", "gTAiFYYuMqA" %}?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/{% cycle "RB4yfGkxslM" %}?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
